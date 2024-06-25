@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My School Showcase - Home</title>
+    <title>SWB Academy</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Welcome to Ormiston SWB Academy</h1>
+        <div class="logo">
+            <img src="images/logo.png" alt="SWB Academy Logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,9 +26,31 @@
     </header>
 
     <section id="home" class="hero">
-        <h2>Welcome to Ormiston SWB Academy</h2>
+        <h2>Welcome to Riley Burton's Homeworks</h2>
         <p>Discover the amazing things happening at Ormiston SWB Academy!</p>
     </section>
+
+
+    <section id="homework" class="content-section">
+        <h2>Homeworks:</h2>
+        <div class="container">
+            <div class="box" onclick="window.location.href='/';">
+                <h2>Geography Homework Russia- superpower </h2>
+            </div>
+            <div class="content-item">
+                <h3>Geography Homework</h3>
+                <p>To view this homework click the text below</p>
+                <a href="Homeworks/Geography/geography-russia-superpower.html" class="btn">VIEW HERE!</a>
+            </div>
+            <div class="content-item">
+                <h3>Science Homework - Adaptations</h3>
+                <p>To view this homework click the text below</p>
+                <a href="Homeworks/Science/adaptations.html" class="btn">VIEW HERE!</a>
+            </div>
+            <!-- Add more boxes as needed -->
+        </div>
+    </section>
+
     <footer>
         <div class="footer-container">
             <div class="footer-section">
@@ -49,9 +74,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Ormiston SWB Academy. All rights reserved.</p>
         </div>
     </footer>
-    
 </body>
 </html>
